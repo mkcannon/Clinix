@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Legacy Project Codeworks extends Tyler Wells Solo Project",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dest/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[testing",
+    "typescript",
+    "refactor",
+    "add_features"
+  ],
+  "author": "Michael Kaib, Ammar Khomusi, Nicolas Ogno",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "mongoose": "^6.3.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^2.2.2",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.0",
+    "@types/node": "^17.0.30",
+    "@types/supertest": "^2.0.12",
+    "jest": "^28.0.3",
+    "supertest": "^6.2.3",
+    "ts-jest": "^28.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -1,0 +1,48 @@
+.new-patient-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+input {
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.back-arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+}
+
+.new-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: wheat;
+  margin-bottom: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  height: 95%;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 7px;
+}
+
+.submission-button {
+  cursor: pointer;
+  height: 15px;
+  background-color: #8cdee9;
+  border-radius: 7px;
+}

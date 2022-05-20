@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=JetBrains+Mono:wght@600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+  /* font-family: "Archivo Narrow", sans-serif; */
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.sub-container {
+  background: rgb(222, 222, 222);
+  display: flex;
+  width: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.top-container {
+  display: flex;
+  height: 47%;
+}
+
+.top-left-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-right-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53%;
+}

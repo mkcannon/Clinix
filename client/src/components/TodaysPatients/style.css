@@ -1,0 +1,22 @@
+.patients-container {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+  height: 80%;
+  margin-top: 20px;
+  position: relative;
+  box-shadow: 0 7px 15px rgb(101, 98, 98);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.todays-patients {
+  position: absolute;
+  top: -25px;
+  left: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}

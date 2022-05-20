@@ -1,0 +1,64 @@
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: white;
+  width: 210px;
+  overflow: hidden;
+  box-shadow: 0 5px 12px rgb(101, 98, 98);
+  position: relative;
+}
+
+.nav-bar-links {
+  /* background: orange; */
+  height: 100%;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-img {
+  height: 55px;
+  width: 55px;
+  margin-left: 23px;
+  margin-top: 15px;
+}
+
+.nav-bar-links ul {
+  list-style-type: none;
+}
+
+/* anchor element is holding both the icon and the text name */
+a {
+  position: relative;
+  color: black;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  margin-top: 25px;
+}
+
+/* changing the icon itself */
+.icon-img {
+  height: 20px;
+}
+/* changing the written name itself */
+.nav-name {
+  margin-left: 25px;
+}
+
+.logout {
+  /* margin-top: 250px; */
+  /* background-color: blueviolet; */
+  margin-top: auto;
+  margin-bottom: 25px;
+}
